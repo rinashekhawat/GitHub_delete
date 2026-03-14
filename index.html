@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repo Manager</title>
+    <style>
+        /* Yahan aap apna premium mobile-first CSS add kar sakte ho */
+        body { font-family: sans-serif; padding: 20px; max-width: 600px; margin: auto; }
+        .repo-item { display: flex; justify-content: space-between; padding: 10px; border: 1px solid #ddd; margin-bottom: 10px; border-radius: 8px; }
+        button { padding: 5px 10px; cursor: pointer; background: #ff4d4d; color: white; border: none; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+    <h2>GitHub Repo Manager</h2>
+    <input type="password" id="tokenInput" placeholder="Enter GitHub Classic Token" style="width: 100%; padding: 10px; margin-bottom: 10px;">
+    <button id="fetchBtn" style="background: #007bff; width: 100%; padding: 10px;">Fetch Repositories</button>
+
+    <div id="repoList" style="margin-top: 20px;"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
